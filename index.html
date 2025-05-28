@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="hu">
+
 <head>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakab Roland portfÛliÛ</title>
+    <title>Jakab Roland portf√≥li√≥</title>
     <style>
         body {
             font-family: Trebuchet MS, sans-serif;
@@ -11,7 +11,7 @@
             color: #333;
             margin: 0;
             padding: 0;
-            padding-bottom: 70px; /* Hely a fix·lt l·blÈcnek */
+            padding-bottom: 70px; /* Hely a fix√°lt l√°bl√©cnek */
         }
 
         header {
@@ -146,28 +146,28 @@
 <body>
     <header>
         <img src="bankilogo.png" alt="Logo helye"/>
-        <h1>Jakab Roland PortfÛliÛja</h1>
+        <h1>Jakab Roland Portf√≥li√≥ja</h1>
     </header>
 
     <nav>
     
-        <a href="#" class="active" onclick="changePage('fooldal')">Fıoldal</a>
-        <b>11. oszt·ly</b>
+        <a href="#" class="active" onclick="changePage('fooldal')">F√µoldal</a>
+        <b>11. oszt√°ly</b>
         <a href="#" onclick="changePage('elektrotechnika')">Elektrotechnika</a>
-        <a href="#" onclick="changePage('mikrokontroller')">MikrovezÈrlı programoz·s</a>
-        <a href="#" onclick="changePage('programozas')">Programoz·s alapjai</a>
-        <a href="#" onclick="changePage('digitalis')">Digit·lis ·ramkˆrˆk</a>
+        <a href="#" onclick="changePage('mikrokontroller')">Mikrovez√©rl√µ programoz√°s</a>
+        <a href="#" onclick="changePage('programozas')">Programoz√°s alapjai</a>
+        <a href="#" onclick="changePage('digitalis')">Digit√°lis √°ramk√∂r√∂k</a>
         <p></p>
-        <b>12. oszt·ly</b>
-        <a href="#" onclick="changePage('adatbazis')">Adatb·ziskezelÈs alapjai</a>
-        <a href="#" onclick="changePage('halozat')">H·lÛzatkezelÈs</a>
-        <a href="#" onclick="changePage('plcprogramozas')">PLC programoz·s</a>
-        <a href="#" onclick="changePage('szimulacio')">Sz·mÌtÛgÈpes szimul·ciÛ</a>
+        <b>12. oszt√°ly</b>
+        <a href="#" onclick="changePage('adatbazis')">Adatb√°ziskezel√©s alapjai</a>
+        <a href="#" onclick="changePage('halozat')">H√°l√≥zatkezel√©s</a>
+        <a href="#" onclick="changePage('plcprogramozas')">PLC programoz√°s</a>
+        <a href="#" onclick="changePage('szimulacio')">Sz√°m√≠t√≥g√©pes szimul√°ci√≥</a>
         <p></p>
-        <b>13. oszt·ly</b>
-        <a href="#" onclick="changePage('munkavallalo')">Munkav·llalÛi idegen nyelv</a>
+        <b>13. oszt√°ly</b>
+        <a href="#" onclick="changePage('munkavallalo')">Munkav√°llal√≥i idegen nyelv</a>
         <a href="#" onclick="changePage('iot')">IoT</a>
-        <a href="#" onclick="changePage('fejlesztes')">ProgramfejlesztÈs</a>
+        <a href="#" onclick="changePage('fejlesztes')">Programfejleszt√©s</a>
         <a href="#" onclick="changePage('robot')">Robottechnika, CAD/CAM</a>
     </nav>
 
@@ -175,7 +175,7 @@
         </section>
 
     <footer>
-        <p>KÈszÌtette: Jakab Roland &copy; 2025 </p>
+        <p>K√©sz√≠tette: Jakab Roland &copy; 2025 </p>
     </footer>
 
     <script>
@@ -227,44 +227,44 @@
 
             switch(page) {
                 case 'fooldal':
-                    content.innerHTML = '<h1>‹dvˆzlˆm a weboldalamon!</h1><br><h2></h2>';
+                    content.innerHTML = '<h1>√údv√∂zl√∂m a weboldalamon!</h1><br><h2></h2>';
                     break;
-                case 'halozat': // H·lÛzatkezelÈs
-                    pageTitle = "H·lÛzatkezelÈs";
+                case 'halozat': // H√°l√≥zatkezel√©s
+                    pageTitle = "H√°l√≥zatkezel√©s";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EbQGx7zTB11AhwsT5QPceWMBfdADlfaZRzCn_o0f2348Ng?e=EDOMz&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'munkavallalo': // Munkav·llalÛi idegen nyelv
-                    pageTitle = "Munkav·llalÛi idegen nyelv";
+                case 'munkavallalo': // Munkav√°llal√≥i idegen nyelv
+                    pageTitle = "Munkav√°llal√≥i idegen nyelv";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe"src="https://dufoffice365-my.sharepoint.com/personal/72603130088_tanulo_bankisuli_hu/_layouts/15/Doc.aspx?sourcedoc={9abe4703-9f16-4d28-917d-4e76163aae3e}&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'mikrokontroller': // MikrovezÈrlı programoz·s
-                    pageTitle = "MikrovezÈrlı programoz·s";
+                case 'mikrokontroller': // Mikrovez√©rl√µ programoz√°s
+                    pageTitle = "Mikrovez√©rl√µ programoz√°s";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EZd2LIxGy6dCkDq8w0rb2NIBtsvn97LIAgkMPzj_lj61kg?e=fSwLEr&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
@@ -274,10 +274,10 @@
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EY_FUJBZxhVNqX4iL5fssDkBSkzaCs_LlMqGTGoWVb9wtQ?e=mLcQHE&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
@@ -287,88 +287,88 @@
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EYs8cy1lgQJAvuB7kqJ6x5QB6gd7QIj6xEelJSIkpmk7ng?e=oamLEJ&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'adatbazis': // Adatb·ziskezelÈs alapjai
-                    pageTitle = "Adatb·ziskezelÈs alapjai";
+                case 'adatbazis': // Adatb√°ziskezel√©s alapjai
+                    pageTitle = "Adatb√°ziskezel√©s alapjai";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EYf7uhk5B5RFqHXG-v0Twk4BmRTgnQjAvad2WrajPlhyYg?e=KFbjH5&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
                 case 'digitalis':
-                    pageTitle = "Digit·lis ·ramkˆrˆk";
+                    pageTitle = "Digit√°lis √°ramk√∂r√∂k";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EZMd3HoGS01OkSN3Ll5hqDYBpeCjO3lSL8vhRxrd4v28nA?e=DAIdnr&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'programozas': // Programoz·s alapjai
-                    pageTitle = "Programoz·s alapjai";
+                case 'programozas': // Programoz√°s alapjai
+                    pageTitle = "Programoz√°s alapjai";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/ER9FN3F3uE5Auc2JQDRzB3oBj2boDAShMfT5Kb-6jV3bXA?e=nKg9CK&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'fejlesztes': // ProgramfejlesztÈs
-                    pageTitle = "ProgramfejlesztÈs";
+                case 'fejlesztes': // Programfejleszt√©s
+                    pageTitle = "Programfejleszt√©s";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EXXwJr9LC45PlQ1Y8K9DrKwBVuuyBz3nQW2i_JIB0lz6LA?e=gdIaRa&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
-                case 'plcprogramozas': // PLC programoz·s
-                    pageTitle = "PLC programoz·s";
+                case 'plcprogramozas': // PLC programoz√°s
+                    pageTitle = "PLC programoz√°s";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/ESIqrml81yFNl7qaBpKs7XIBPr5St3xD7RlxRBpT-ljO9A?e=LlIGsM&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
                 case 'szimulacio':
-                    pageTitle = "Sz·mÌtÛgÈpes szimul·ciÛ";
+                    pageTitle = "Sz√°m√≠t√≥g√©pes szimul√°ci√≥";
                     content.innerHTML = `
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/personal/72603130088_tanulo_bankisuli_hu/_layouts/15/Doc.aspx?sourcedoc={8857b6bf-0fb9-4ecd-a030-345157299ea9}&amp;action=embedview" "frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
@@ -378,15 +378,15 @@
                         <div class="iframe-container">
                             <div class="iframe-header">
                                 <h2>${pageTitle}</h2>
-                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes kÈpernyı</button>
+                                <button class="fullscreen-btn" onclick="openFullscreen('embedded_doc_iframe')">Teljes k√©perny√µ</button>
                             </div>
                             <iframe id="embedded_doc_iframe" src="https://dufoffice365-my.sharepoint.com/:w:/g/personal/72603130088_tanulo_bankisuli_hu/EYnFbopTLGdNp_4lnvOiz1QBhvaZgu-cht7fk9Eg_StzBQ?e=sQOhhM&amp;action=embedview" style="height: ${iframeHeight}; width: 100%;" frameborder="0" allowfullscreen>
-                                Ez egy be·gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
+                                Ez egy be√°gyazott <a target="_blank" href="https://office.com">Microsoft Office</a>-dokumentum...
                             </iframe>
                         </div>`;
                     break;
                 default:
-                    content.innerHTML = '<h1>Tartalom nem tal·lhatÛ</h1><p>A kÈrt oldal nem lÈtezik.</p>';
+                    content.innerHTML = '<h1>Tartalom nem tal√°lhat√≥</h1><p>A k√©rt oldal nem l√©tezik.</p>';
             }
 
             const newIframe = content.querySelector('iframe');
